@@ -39,7 +39,7 @@
 				<td><%=result.getInt("cId")%></td>
 				<td><%=format.format(new Date(result.getLong("cDate")))%></td>
 				<td><%=result.getString("cClientName")%></td>
-				<td><a href="DBView.jsp?pId=<%=result.getInt("cId")%>>">詳細</a></td>
+				<td><a href="DbView.jsp?pId=<%=result.getInt("cId")%>">詳細</a></td>
 			</tr>
 			<%}
 				result.close();
